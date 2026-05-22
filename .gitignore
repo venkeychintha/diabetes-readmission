@@ -23,3 +23,8 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# MLflow database
+mlflow.db
+*.db
+

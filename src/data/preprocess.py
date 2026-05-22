@@ -4,13 +4,13 @@ from sklearn.model_selection import train_test_split
 COLS_TO_DROP = [
     "encounter_id", "patient_nbr",
     "examide", "citoglipton",
-    "weight", "payer_code", "medical_specialty"
+    "weight", "payer_code", "medical_specialty",
+    "diag_1", "diag_2", "diag_3"
 ]
 
 CATEGORICAL_COLS = [
     "race", "gender", "age", "admission_type_id",
     "discharge_disposition_id", "admission_source_id",
-    "diag_1", "diag_2", "diag_3",
     "max_glu_serum", "A1Cresult",
     "metformin", "repaglinide", "nateglinide", "chlorpropamide",
     "glimepiride", "acetohexamide", "glipizide", "glyburide",
