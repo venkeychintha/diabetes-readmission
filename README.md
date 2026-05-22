@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Diabetes 30-Day Readmission Prediction Service
 
 Binary classification system that predicts whether a diabetic patient
@@ -171,3 +172,6 @@ Tests cover:
 - Add input drift detection for production monitoring
 - Store artifacts in cloud object storage (S3/GCS)
 - Add CI/CD pipeline with GitHub Actions
+=======
+# diabetes-readmission
+>>>>>>> bec8ef7f9cc6032ac5334b02d7377584c7627503
